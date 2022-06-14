@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gerador de Binds</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<!--colcar icone na pagina-->
+
+</head>
+<body>
+
+
+
+<div class="header">
+  <img src="./assets/logo.png" alt="">
+</div>
+
+<div class="row">
+    <div class="column">
+        <h1>Selecione a tecla</h1>
+        <div id="keyboard" >
+            <textarea id="keyboard-text" cols="30" rows="10" disabled></textarea>
+        </div>
+    </div>
+    <div id="selecao" class="column comBorda">
+        <h1>Escolha a bind desejada</h1>
+            <select class="binds">
+              <option value="">Selecione...</option>
+              <option value="r_cleardecals">Limpar o sangue</option>
+              <option value="+voicerecord">Ativar o microfone</option>
+              <option value="&#34+jump;-attack;-attack2;-jump&#34">Jumpthrow</option>
+              <option value="&#34use weapon_knife;slot1&#34">Quick Switch</option>
+              <option value="&#34use weapon_flashbang&#34">Puxar Bang</option>
+              <option value="&#34use weapon_smokegrenade&#34">Puxar Smoke</option>
+              <option value="&#34use weapon_hegrenade&#34">Puxar He</option>
+              <option value="&#34use weapon_molotov;use weapon_incgrenade&#34">Puxar Molotv</option>
+              <option value="&#34toggle cl_righthand 0 1&#34">Trocar a Arma de lado</option>
+            </select>
+       
+    
+    </div>
+</div>
+
+<div id="resultado" class="footer hide">
+  <p id="quadro-texto"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
